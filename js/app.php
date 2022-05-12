@@ -48,7 +48,7 @@ function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamem
 
 const test = "Zoupi zoup";
 
-v.innerHTML = <?php if ($noWelcomeMsg) {echo "'test'";} else {echo "'$welcomeMsg'+"."' <br> '"."+test;";} ?>
+v.innerHTML = <?php if ($noWelcomeMsg) {echo "test;";} else {echo "'$welcomeMsg'+"."' <br> '"."+test;";} ?>
 
 function SetFilesTotal( total ) {
 

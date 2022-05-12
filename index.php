@@ -75,34 +75,12 @@
             <div class="right-panel">
                 <h2 class="rule-title"><?php echo $titleRule ?></h2>
                 <div class="info-rules">
-                    <div class="rule-1">
-                        <h5 class="1">1.</h5>
-                        <p class="rule">Respecter les joueurs ainsi que les staffs</p>
+                <?php for($a = 0; $a < $arrlength; $a++) { ?>
+                    <div class="rule-<?php echo $a+1 ?>">
+                        <h5 class="<?php echo $a+1 ?>"><?php echo $a+1 ?>.</h5>
+                        <p class="rule"><?php echo $rules[$a] ?></p>
                     </div>
-                    <div class="rule-2">
-                        <h5 class="2">2.</h5>
-                        <p class="rule">Interdit de freekill, carkill, freepunch, freetaze</p>
-                    </div>
-                    <div class="rule-3">
-                        <h5 class="3">3.</h5>
-                        <p class="rule">Interdit de propkill, proppush, propsurf</p>
-                    </div>
-                    <div class="rule-4">
-                        <h5 class="4">4.</h5>
-                        <p class="rule">Ne pas spammer le chat ni le chat vocal</p>
-                    </div>
-                    <div class="rule-5">
-                        <h5 class="5">5.</h5>
-                        <p class="rule">Ne pas spawnkill</p>
-                    </div>
-                    <div class="rule-6">
-                        <h5 class="6">6.</h5>
-                        <p class="rule">Ne pas troll</p>
-                    </div>
-                    <div class="rule-7">
-                        <h5 class="7">7.</h5>
-                        <p class="rule">Ne pas violé le NLR</p>
-                    </div>
+                <?php } ?>
                 </div>
                 <h2 class="title-staff">Staffs</h2>
                 <div class="box">

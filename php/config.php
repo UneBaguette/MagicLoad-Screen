@@ -45,19 +45,17 @@ $staffMembers = array(
 "76561198208414764",
 );
 
-// ---------- WIP -------------
 // Rules -- put them in order like this --> array("-- first rule--", "-- Second rule --", etc...) 
 // MAX 7 ! or after that number, it will not show up
-// $rules = array(
-// "Respecter les joueurs ainsi que les staffs",
-// "Interdit de freekill, carkill, freepunch, freetaze",
-// "Interdit de propkill, proppush, propsurf",
-// "Ne pas spammer le chat ni le chat vocal",
-// "Ne pas spawnkill",
-// "Ne pas troll",
-// "Ne pas violé le NLR",
-// );
-// ---------- WIP -------------
+$rules = array(
+"Respecter les joueurs ainsi que les staffs",
+"Interdit de freekill, carkill, freepunch, freetaze",
+"Interdit de propkill, proppush, propsurf",
+"Ne pas spammer le chat ni le chat vocal",
+"Ne pas spawnkill",
+"Ne pas troll",
+"Ne pas violé le NLR",
+);
 
 // MUSIC
 

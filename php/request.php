@@ -50,4 +50,6 @@ if (isset($_GET['mapname'])) {
     $map = $_GET['mapname'];
 }
 
+$arrlength = count($rules);
+
 ?>
