@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+/* 
+
+Light = 300
+Regular = 400
+Medium = 500
+Semibold = 600
+Bold = 700
+
+*/
+
+
+/* HTML Elements, BODY */
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h4, h5, p, span {
+    color: #F5F5F5;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background: url("/images/background/gizmo_the_canbine.jpg") no-repeat center;
+    overflow: hidden;
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+/* Music Box */
+
+.music-box {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 100px;
+    background: #1f1f1fc9;
+    display: flex;
+    box-shadow: 0 0 15px #000000BF;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image-music {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #F5F5F5;
+    overflow: hidden;
+}
+
+.infos-music {
+    padding: 10px;
+}
+
+.infos-music h4 {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.infos-music p {
+    font-weight: 600;
+}
+
+.music-info {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+
+/* RECTANGLES AND PANELS */
+
+/* Backgorund color ! #2e2e2eed */
+
+.rec-title {
+    background: #2e2e2eed;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 1100px;
+    width: 80%;
+    min-width: 900px;
+    margin: 60px auto;
+    border-radius: 2px;
+    box-shadow: 0 0 15px #000000BF;
+}
+
+.title {
+    padding: 15px;
+    text-align: center;
+    line-height: 2.8rem;
+}
+
+.panels {
+    display: flex;
+    max-width: 1100px;
+    width: 80%;
+    min-width: 900px;
+    margin: 50px auto;
+    height: 600px;
+}
+
+.right-panel, .left-panel {
+    background: #2e2e2eed;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+    padding: 0 25px;
+    box-shadow: 0 0 15px #000000BF;
+}
+
+/* LEFT PANEL */
+
+.left-panel {
+    max-width: 95%;
+    margin-right: 2%;
+}
+
+.title-player {
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.info-player, .info-server {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-player div, .info-server div {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.file-info img {
+    margin: 10px 12px 10px 4px !important;
+}
+
+.info-player div img, .info-server div img {
+    width: 45px;
+    margin: 10px 10px 10px 0;
+}
+
+
+.info-player p, .info-server p {
+    text-align: start;
+    width: 30%;
+}
+
+.info-player span, .info-server span {
+    width: 70%;
+}
+
+.title-server {
+    border-bottom: 1px solid #F5F5F5;
+    border-top: 1px solid #F5F5F5;
+    padding: 15px 0;
+    margin: 6px auto;
+}
+
+
+.left-panel p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    min-width: 144px;
+}
+
+
+/* RIGHT PANEL */
+
+.right-panel {
+    margin-left: 2%;
+}
+
+.right-panel p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.rule-title {
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.info-rules {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-rules div {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+/* Staff */
+
+.title-staff {
+    border-bottom: 1px solid #F5F5F5;
+    border-top: 1px solid #F5F5F5;
+    padding: 15px 0;
+    margin: 6px auto;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #F5F5F5;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.infos h4 {
+    font-size: 1.4rem;
+}
+
+/* Bottom page - Loading bar */
+
+.loading-bar {
+    background: #2e2e2eed;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 1100px;
+    width: 80%;
+    min-width: 900px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 15px #000000BF;
+}
+
+
+/* Not working GMod */
+
+@media screen and (max-height: 960px) {
+    .rec-title {
+        min-width: 800px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-height: 915px) {
+    .rec-title {
+        margin: 20px auto;
+    }
+    .panels {
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-height: 870px) {
+    /* h1 {
+        font-weight: 500;
+    } */
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+    
+    /* h4 {
+        font-weight: 300;
+    } */
+    
+    p {
+        font-size: 1.2rem;
+    }
+    
+    span {
+        font-size: 1.3rem;
+    }
+    .rec-title {
+        width: 70%;
+    }
+    .panels {
+        width: 70%;
+    }
+    .loading-bar {
+        width: 70%;
+    }
+}
